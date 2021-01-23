@@ -5,13 +5,18 @@
             <img [src]="heroedetalle.avatar" height="400px" class="card-img" alt="...">
             <div class="card-img-overlay">
               <h5 class="card-title nombre-detalle">{{heroedetalle.name | uppercase}}</h5>
-              <p class="card-text descripcion-detalle">{{heroedetalle['description']}}
+              <div class="descripcion-detalle">{{heroedetalle['description']}}
                   <br>
                   ¿Cúal es tu voto?<br>
-                  <button class="btn btn-outline-primary">
-                    votar
-                  </button>
-              </p>
+                  <div class="vote__buttons">
+                    <button class="btn btn-outline-primary vote__button">
+                      dedo arriba
+                    </button>
+                    <button class="btn btn-outline-primary vote__button">
+                      dedo bajo
+                    </button>
+                  </div>
+              </div>
             
             </div>
          </div>

@@ -25,6 +25,21 @@
   left: 10px;
   color: white;
 }
+
+.vote__buttons{
+  border: 1px solid;
+  display: flex;
+}
+
+.vote__buttons{
+  display: absolute;
+  bottom: 0;
+}
+
+.vote__buttons > button{
+  width: 50%;
+}
+
 /* -----------------------------------------detalle */
 .nombre-detalle {
   position: absolute;
@@ -35,12 +50,14 @@
 }
 
 .descripcion-detalle {
+  border: 1px solid;
   position: absolute;
-  top: 50%;
+  top: 40%;
   margin-left: 10%;
   background: rgba(34, 34, 34, 0.75);
   background-color: rgba(0, 0, 0, 0.1);
-  height: 30%;
+  height: 50%;
+  width: 30%;
 }
 
 main {
