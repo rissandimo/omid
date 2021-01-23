@@ -27,7 +27,6 @@
 }
 
 .vote__buttons{
-  border: 1px solid;
   display: flex;
 }
 
@@ -43,19 +42,20 @@
 /* -----------------------------------------detalle */
 .nombre-detalle {
   position: absolute;
-  top: 40%;
+  top: 10%;
   margin-left: 10%;
   background: rgba(34, 34, 34, 0.75);
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .descripcion-detalle {
-  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
-  top: 40%;
+  top: 20%;
   margin-left: 10%;
-  background: rgba(34, 34, 34, 0.75);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 50%;
   width: 30%;
 }
