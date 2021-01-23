@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+.botton-detalle {
+  margin-bottom: 13px;
+}
+
+.targeta-bottom {
+  margin-bottom: 5px;
+}
+
+.nombre {
+  position: absolute;
+  top: 55%;
+  left: 10px;
+}
+
+.descripcion {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+
+.btn-detalle {
+  position: absolute;
+  top: 75%;
+  left: 10px;
+  color: white;
+}
+/* -----------------------------------------detalle */
+.nombre-detalle {
+  position: absolute;
+  top: 40%;
+  margin-left: 10%;
+  background: rgba(34, 34, 34, 0.75);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.descripcion-detalle {
+  position: absolute;
+  top: 50%;
+  margin-left: 10%;
+  background: rgba(34, 34, 34, 0.75);
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 30%;
+}
+
+main {
+  column-count: 2;
+}

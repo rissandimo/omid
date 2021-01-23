@@ -1,0 +1,21 @@
+<div class="row botton-detalle" >
+    <div class="col-md-12">
+     
+        <div class="card bg-dark text-white" >
+            <img [src]="heroedetalle.avatar" height="400px" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title nombre-detalle">{{heroedetalle.name | uppercase}}</h5>
+              <p class="card-text descripcion-detalle">{{heroedetalle['description']}}
+                  <br>
+                  ¿Cúal es tu voto?<br>
+                  <button class="btn btn-outline-primary">
+                    votar
+                  </button>
+              </p>
+            
+            </div>
+         </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,8 @@
+{
+    "/heroes/*":{
+        "target":"http://syscalad.com",
+        "secure":false,
+        "logLevel":"debug",
+        "changeOrigin":true 
+    }
+}

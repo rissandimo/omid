@@ -1,0 +1,30 @@
+
+<div class="card bg-dark text-white targeta-bottom" >
+        <img  height="400px" class="card-img" alt="..." [src]="heroe.avatar">
+        <div class="card-img-overlay">
+                <h5 class="card-title nombre-detalle">{{heroe.name}}</h5>
+                <p class="card-text descripcion">{{heroe.description}}</p>
+                <a class="btn btn-outline-success btn-detalle" (click)="verHeroe()">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                </a>
+        </div>
+        <table align="center" border="1" cellpadding="1" cellspacing="1" style="height: 50px">
+                <tbody>
+                        <tr>
+                                <td style="width: 169px; text-align: center"><strong><span style="color: rgb(255, 140, 0);">&nbsp;</span>
+                                        {{heroe.p_likes}}% <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                </strong>
+                                </td>
+
+
+                                <td style="text-align: center; width: 168px" class="dislike">
+                                       {{heroe.p_dislike}}% <i class="fas fa-thumbs-down"></i>
+                                </td>
+                        </tr>
+                </tbody>
+        </table>
+
+</div>
+
+    
+
